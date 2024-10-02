@@ -5,6 +5,10 @@ variable "db_name" {
   description = "Unique name to assign to RDS instance"
 }
 
+variable "db_name2" {
+  description = "Unique name to assign to RDS instance"
+}
+
 variable "db_username" {
   description = "RDS root username"
 }
